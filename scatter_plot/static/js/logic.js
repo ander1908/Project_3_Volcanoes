@@ -14,7 +14,7 @@ function createMap(volcanoes) {
         "Volcano Eruptions": volcanoes
     };
 
-    var myMap = L.map("map-id", {
+    var map = L.map("map-id", {
         center: [19.425,
             -155.292],
         zoom: 1500,
@@ -27,19 +27,21 @@ function createMap(volcanoes) {
 }
 
 function createMarkers(response) {
-
-    var mtns = response.records.fields;
+    console.log(response);
+    var mtns = response.records;
 
     var volMarkers = [];
 
     for(var index = 0; index < mtns.length; index++) {
-        var mtn = mtns[index];
+        var mtn = mtns[index].fields;
 
-        var volMarker = L.marker([mtn.coordinates])
+        var volMarker = L.marker(mtn.coordinates)
         .bindPopup("<h3>" + mtn.name + "<h3><h3>Type: " + mtn.type + "</h3><h3>Elevation: " + mtn.elevation + "</h3>");
 
         volMarkers.push(volMarker);
+        
     }
+    
     createMap(L.layerGroup(volMarkers));
 }
 
