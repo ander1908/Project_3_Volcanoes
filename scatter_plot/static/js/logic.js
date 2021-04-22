@@ -17,7 +17,7 @@ function createMap(volcanoes) {
     var map = L.map("map-id", {
         center: [19.425,
             -155.292],
-        zoom: 1500,
+        zoom: 2,
         layers: [streetmap, volcanoes]
     });
 
