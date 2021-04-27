@@ -1,0 +1,495 @@
+country,coordinates,type,vei,year
+United States,"[56.17, -159.38]",Stratovolcano,6.0,1969-12-31
+United States,"[61.38, -141.75]",Stratovolcano,6.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,1.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.32, 127.4]",Stratovolcano,4.0,1970-01-01
+United States,"[19.692, -155.87]",Shield volcano,0.0,1970-01-01
+United States,"[46.2, -122.18]",Stratovolcano,5.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,2.0,1970-01-01
+United States,"[-14.175, -169.618]",Shield volcano,2.0,1970-01-01
+Indonesia,"[2.28, 125.425]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.54, 123.59]",Complex volcano,3.0,1970-01-01
+Japan,"[36.62, 138.55]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[1.358, 124.792]",Stratovolcano,1.0,1970-01-01
+Guatemala,"[14.381, -90.601]",Complex volcano,3.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,4.0,1969-12-31
+Ecuador,"[-1.467, -78.442]",Stratovolcano,5.0,1969-12-31
+Iceland,"[64.0, -16.65]",Stratovolcano,5.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.13, 107.83]",Complex volcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.45, 139.77]",Stratovolcano,3.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,4.0,1970-01-01
+Papua New Guinea,"[-9.2, 149.07]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,1.0,1970-01-01
+Japan,"[43.42, 142.68]",Stratovolcano,3.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Japan,"[32.75, 130.3]",Complex volcano,1.0,1970-01-01
+Ecuador,"[-0.171, -78.598]",Stratovolcano,1.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[1.375, 127.52]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-4.649, 145.964]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[30.43, 130.22]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,1.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-0.078, -77.656]",Stratovolcano,4.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,4.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,5.0,1970-01-01
+Iceland,"[63.93, -22.1]",Crater rows,1.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Indonesia,"[1.68, 127.88]",Complex volcano,3.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Indonesia,"[-7.32, 107.73]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,0.0,1970-01-01
+Papua New Guinea,"[-4.271, 152.203]",Pyroclastic shield,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.32, 127.4]",Stratovolcano,2.0,1970-01-01
+Guatemala,"[14.756, -91.552]",Stratovolcano,6.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,3.0,1970-01-01
+Ecuador,"[-0.9, -91.42]",Shield volcano,3.0,1970-01-01
+Papua New Guinea,"[-8.95, 148.15]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.54, 123.59]",Complex volcano,1.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,5.0,1969-12-31
+Italy,"[40.821, 14.426]",Complex volcano,5.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Italy,"[40.827, 14.139]",Caldera,3.0,1970-01-01
+Japan,"[32.75, 130.3]",Complex volcano,2.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.25, 108.05]",Stratovolcano,5.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,2.0,1970-01-01
+Japan,"[34.08, 139.53]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,2.0,1970-01-01
+Philippines,"[12.77, 124.05]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.54, 123.59]",Complex volcano,2.0,1970-01-01
+Papua New Guinea,"[-4.649, 145.964]",Stratovolcano,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Japan,"[35.9, 137.48]",Complex volcano,3.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
+United States,"[46.2, -122.18]",Stratovolcano,6.0,1969-12-31
+Japan,"[31.93, 130.87]",Shield volcano,3.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,3.0,1970-01-01
+Japan,"[41.5, 139.37]",Stratovolcano,4.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,2.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.125, 114.042]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-3.52, 102.62]",Stratovolcano,2.0,1970-01-01
+Japan,"[30.43, 130.22]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[2.28, 125.425]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,2.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Papua New Guinea,"[-4.271, 152.203]",Pyroclastic shield,4.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-2.38, 147.35]",Complex volcano,0.0,1970-01-01
+Ecuador,"[-2.03, -78.33]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,1.0,1970-01-01
+Papua New Guinea,"[-4.271, 152.203]",Pyroclastic shield,3.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,2.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,5.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,0.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,3.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Japan,"[37.73, 140.25]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[3.138, 125.491]",Submarine volcano,3.0,1970-01-01
+Japan,"[34.08, 139.53]",Stratovolcano,2.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,3.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-0.381, 100.473]",Complex volcano,2.0,1970-01-01
+Iceland,"[65.73, -16.78]",Caldera,1.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Japan,"[37.12, 139.97]",Stratovolcano,3.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,2.0,1970-01-01
+Japan,"[42.07, 140.68]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.756, -91.552]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,4.0,1970-01-01
+Japan,"[36.92, 138.03]",Lava dome,2.0,1970-01-01
+Philippines,"[12.77, 124.05]",Stratovolcano,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,1.0,1970-01-01
+Japan,"[30.78, 130.28]",Caldera,7.0,1969-12-31
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,5.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Japan,"[33.13, 139.77]",Stratovolcano,2.0,1970-01-01
+Iceland,"[64.63, -17.53]",Stratovolcano,2.0,1970-01-01
+Iceland,"[64.63, -17.53]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,4.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[1.108, 124.725]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.32, 127.4]",Stratovolcano,4.0,1970-01-01
+Papua New Guinea,"[-3.6, 144.85]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.32, 121.708]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-0.17, 121.608]",Stratovolcano,4.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.42, 116.47]",Stratovolcano,3.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,3.0,1970-01-01
+Ecuador,"[-0.171, -78.598]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+United States,"[61.38, -141.75]",Stratovolcano,6.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,5.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+Indonesia,"[-6.77, 107.6]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.07, 140.68]",Stratovolcano,4.0,1970-01-01
+United States,"[59.37, -153.42]",Lava dome,4.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,3.0,1970-01-01
+Iceland,"[64.27, -16.65]",Stratovolcano,1.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+Philippines,"[9.203, 124.673]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,5.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Indonesia,"[-8.0, 113.342]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+United States,"[53.42, -168.13]",Shield volcano,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.67, 122.45]",Stratovolcano,1.0,1970-01-01
+United States,"[53.42, -168.13]",Shield volcano,6.0,1969-12-31
+Iceland,"[63.98, -19.7]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Papua New Guinea,"[-6.092, 155.225]",Pyroclastic shield,6.0,1970-01-01
+Indonesia,"[-6.892, 108.4]",Stratovolcano,3.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,5.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Japan,"[43.42, 142.68]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.342, 115.508]",Stratovolcano,3.0,1970-01-01
+Philippines,"[19.077, 122.202]",Compound volcano,2.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.125, 114.042]",Stratovolcano,5.0,1970-01-01
+United States,"[19.475, -155.608]",Shield volcano,0.0,1970-01-01
+Papua New Guinea,"[-6.14, 155.195]",Lava cone,3.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,2.0,1970-01-01
+Indonesia,"[-7.32, 107.73]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-8.342, 115.508]",Stratovolcano,5.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,4.0,1970-01-01
+Iceland,"[63.43, -20.28]",Submarine volcano,3.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,3.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,0.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.942, 112.95]",Stratovolcano,2.0,1970-01-01
+United States,"[52.18, -175.5]",Stratovolcano,3.0,1970-01-01
+United States,"[56.88, -158.17]",Caldera,6.0,1969-12-31
+Iceland,"[63.98, -19.7]",Stratovolcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+Japan,"[35.35, 138.73]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,2.0,1970-01-01
+United States,"[53.13, -168.68]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.242, 115.375]",Caldera,2.0,1970-01-01
+Indonesia,"[-8.88, 121.63]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[42.07, 140.68]",Stratovolcano,5.0,1970-01-01
+Japan,"[32.45, 139.77]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.686, 99.539]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,1.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,2.0,1970-01-01
+Japan,"[34.73, 139.38]",Stratovolcano,1.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Philippines,"[15.13, 120.35]",Stratovolcano,6.0,1970-01-01
+Philippines,"[15.13, 120.35]",Stratovolcano,1.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,2.0,1970-01-01
+Iceland,"[64.63, -17.53]",Stratovolcano,1.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[1.358, 124.792]",Stratovolcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-6.102, 105.423]",Caldera,6.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+United States,"[19.475, -155.608]",Shield volcano,0.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,1.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Philippines,"[17.32, 121.1]",Compound volcano,1.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-0.85, -78.9]",Caldera,6.0,1970-01-01
+United States,"[59.37, -153.42]",Lava dome,4.0,1970-01-01
+Papua New Guinea,"[-5.358, 147.12]",Complex volcano,6.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,2.0,1970-01-01
+Philippines,"[7.67, 124.5]",Stratovolcano,2.0,1970-01-01
+Japan,"[30.48, 140.32]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-0.381, 100.473]",Complex volcano,2.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Guatemala,"[14.381, -90.601]",Complex volcano,3.0,1970-01-01
+Japan,"[31.93, 130.87]",Shield volcano,3.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,1.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,2.0,1970-01-01
+United States,"[19.692, -155.87]",Shield volcano,0.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,2.0,1970-01-01
+Papua New Guinea,"[-4.271, 152.203]",Pyroclastic shield,3.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,2.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.25, 108.05]",Stratovolcano,4.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,3.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+United States,"[52.82, -169.95]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Papua New Guinea,"[-5.52, 148.121]",Stratovolcano,1.0,1970-01-01
+Japan,"[34.08, 139.53]",Stratovolcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,2.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-5.58, 150.52]",Caldera,6.0,1969-12-31
+Papua New Guinea,"[-5.58, 150.52]",Caldera,6.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,4.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,4.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.32, 121.708]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Japan,"[36.22, 137.58]",Stratovolcano,1.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,2.0,1970-01-01
+Iceland,"[64.0, -16.65]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,3.0,1970-01-01
+United States,"[19.475, -155.608]",Shield volcano,2.0,1970-01-01
+Indonesia,"[-8.53, 122.775]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-5.056, 150.108]",Caldera,2.0,1970-01-01
+Japan,"[37.62, 140.28]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.53, 122.775]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[3.67, 125.5]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,3.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[1.358, 124.858]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.32, 121.708]",Stratovolcano,2.0,1970-01-01
+United States,"[61.3, -152.25]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.381, -90.601]",Complex volcano,1.0,1970-01-01
+Papua New Guinea,"[-5.58, 150.52]",Caldera,6.0,1969-12-31
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Iceland,"[64.63, -17.53]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-8.125, 114.042]",Stratovolcano,3.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,3.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,2.0,1970-01-01
+Japan,"[30.48, 140.32]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Japan,"[34.73, 139.38]",Stratovolcano,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,1.0,1970-01-01
+Italy,"[37.734, 15.004]",Stratovolcano,3.0,1970-01-01
+Philippines,"[12.77, 124.05]",Stratovolcano,2.0,1970-01-01
+Philippines,"[15.13, 120.35]",Stratovolcano,6.0,1969-12-31
+Iceland,"[63.63, -19.05]",Subglacial volcano,3.0,1970-01-01
+Indonesia,"[-8.125, 114.042]",Stratovolcano,4.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,2.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,3.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Indonesia,"[-8.058, 114.242]",Stratovolcano,2.0,1970-01-01
+Japan,"[41.8, 141.17]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[3.138, 125.491]",Submarine volcano,2.0,1970-01-01
+United States,"[58.27, -155.16]",Caldera,6.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,1.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,2.0,1970-01-01
+Guatemala,"[14.756, -91.552]",Stratovolcano,3.0,1970-01-01
+Japan,"[34.73, 139.38]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.32, 121.708]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[3.17, 98.392]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[3.17, 98.392]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-6.102, 105.423]",Caldera,1.0,1970-01-01
+Philippines,"[15.13, 120.35]",Stratovolcano,6.0,1969-12-31
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[0.32, 127.4]",Stratovolcano,4.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,4.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+United States,"[54.75, -163.97]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.0, 113.342]",Stratovolcano,2.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Indonesia,"[-8.32, 121.708]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Indonesia,"[-8.51, 124.148]",Complex volcano,0.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.53, 140.83]",Stratovolcano,3.0,1970-01-01
+United States,"[46.2, -122.18]",Stratovolcano,5.0,1970-01-01
+Guatemala,"[14.756, -91.552]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,1.0,1970-01-01
+Iceland,"[63.63, -19.62]",Stratovolcano,2.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,3.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
+United States,"[56.53, -158.8]",Stratovolcano,6.0,1969-12-31
+Iceland,"[64.63, -17.53]",Stratovolcano,6.0,1970-01-01
+Indonesia,"[-8.125, 114.042]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[1.375, 127.52]",Stratovolcano,5.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,4.0,1970-01-01
+Ecuador,"[-0.677, -78.436]",Stratovolcano,4.0,1970-01-01
+Japan,"[32.75, 130.3]",Complex volcano,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.25, 118.0]",Stratovolcano,7.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,4.0,1970-01-01
+Papua New Guinea,"[-5.52, 148.121]",Stratovolcano,3.0,1970-01-01
+Japan,"[37.6, 140.08]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-8.54, 123.59]",Complex volcano,2.0,1970-01-01
+Philippines,"[9.203, 124.673]",Stratovolcano,3.0,1970-01-01
+Japan,"[36.4, 138.53]",Complex volcano,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.2, 109.92]",Complex volcano,1.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-6.102, 105.423]",Caldera,1.0,1970-01-01
+Philippines,"[12.77, 124.05]",Stratovolcano,2.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
+United States,"[19.425, -155.292]",Shield volcano,1.0,1970-01-01
+Philippines,"[14.002, 120.993]",Stratovolcano,6.0,1969-12-31
+Papua New Guinea,"[-5.358, 147.12]",Complex volcano,6.0,1969-12-31
+Papua New Guinea,"[-5.056, 150.108]",Caldera,6.0,1970-01-01
+Papua New Guinea,"[-4.271, 152.203]",Pyroclastic shield,6.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,3.0,1970-01-01
+Iceland,"[63.63, -19.05]",Subglacial volcano,5.0,1970-01-01
+Indonesia,"[0.8, 127.325]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+Japan,"[39.08, 140.03]",Stratovolcano,2.0,1970-01-01
+Japan,"[42.7, 141.33]",Caldera,3.0,1970-01-01
+United States,"[54.52, -164.65]",Stratovolcano,2.0,1970-01-01
+Iceland,"[63.98, -19.7]",Stratovolcano,4.0,1970-01-01
+Japan,"[38.15, 140.45]",Complex volcano,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Papua New Guinea,"[-5.52, 148.121]",Stratovolcano,1.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,2.0,1970-01-01
+Guatemala,"[14.381, -90.601]",Complex volcano,3.0,1970-01-01
+Japan,"[34.08, 139.53]",Stratovolcano,2.0,1970-01-01
+Philippines,"[13.257, 123.685]",Stratovolcano,1.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,2.0,1970-01-01
+Iceland,"[64.42, -17.33]",Caldera,2.0,1970-01-01
+Iceland,"[64.63, -17.53]",Stratovolcano,3.0,1970-01-01
+Japan,"[34.73, 139.38]",Stratovolcano,2.0,1970-01-01
+Italy,"[40.821, 14.426]",Complex volcano,2.0,1970-01-01
+Indonesia,"[-7.13, 107.83]",Complex volcano,2.0,1970-01-01
+Japan,"[32.88, 131.1]",Caldera,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,2.0,1970-01-01
+Philippines,"[9.203, 124.673]",Stratovolcano,2.0,1970-01-01
+Iceland,"[65.03, -16.75]",Stratovolcano,5.0,1970-01-01
+Ecuador,"[-1.467, -78.442]",Stratovolcano,4.0,1970-01-01
+Philippines,"[9.203, 124.673]",Stratovolcano,3.0,1970-01-01
+Japan,"[32.1, 139.85]",Submarine volcano,2.0,1970-01-01
+Indonesia,"[-8.108, 112.92]",Stratovolcano,3.0,1970-01-01
+Philippines,"[15.13, 120.35]",Stratovolcano,1.0,1970-01-01
+Philippines,"[10.412, 123.132]",Stratovolcano,2.0,1970-01-01
+Iceland,"[65.73, -16.78]",Caldera,2.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,4.0,1970-01-01
+Guatemala,"[14.473, -90.88]",Stratovolcano,2.0,1970-01-01
+Indonesia,"[-7.542, 110.442]",Stratovolcano,4.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,0.0,1970-01-01
+Papua New Guinea,"[-5.58, 150.52]",Caldera,3.0,1970-01-01
+Indonesia,"[-6.102, 105.423]",Caldera,2.0,1970-01-01
+Italy,"[38.789, 15.213]",Stratovolcano,3.0,1970-01-01
+Japan,"[31.58, 130.67]",Stratovolcano,3.0,1970-01-01
+Indonesia,"[-7.93, 112.308]",Stratovolcano,4.0,1970-01-01
+Japan,"[32.75, 130.3]",Complex volcano,1.0,1970-01-01
+Indonesia,"[2.78, 125.48]",Stratovolcano,3.0,1970-01-01
+Papua New Guinea,"[-4.1, 145.061]",Stratovolcano,4.0,1970-01-01
