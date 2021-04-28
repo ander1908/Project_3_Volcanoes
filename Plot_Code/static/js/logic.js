@@ -19,64 +19,167 @@ json_url = "https://public.opendatasoft.com/api/records/1.0/search/?dataset=sign
 //     return volcanoData
 //   });
 
-  var volcanoData = d3.json(json_url).then(function(data) {
-    const volcanoData = data.records.map(x => x);
-    console.log(volcanoData)
-    return volcanoData
-});
 
+// var volcanoData = d3.json(json_url).then(function(data) {
+//     const volcanoData = data.records.map(x => x);
+//     console.log(volcanoData)
+//     return volcanoData
+// });
 
-function filterData(volcanoData, type) {
-    var filteredVolcanoData = volcanoData.filter(x => x.fields.name === type);
+// var dropDown = d3.select('#selDataset');
+
+function onlyUnique(value, index, self) {
+    return self.indexOf(value) === index;
+  }
+
+function init() {
+
+    // resetData();
+
+    var dropDown = d3.select('#selDataset');
+
+    // const volcanoData = x.fields.map(x => x);
+    d3.json(json_url).then((volcanoData) => {
+        console.log(volcanoData);
+
+        let volcanoDataRecords = volcanoData.records
+        // Storing all countries, includes duplications
+        let volcanDataRecordsCountries = []
+        volcanoDataRecords.forEach((country_jsons) => {
+            let country =  country_jsons.fields.country
+            volcanDataRecordsCountries.push(country)
+        });
+        // var names = x.fields.name;
+
+        // Deduplicating country array
+        volcanDataRecordsCountries = [...new Set(volcanDataRecordsCountries)]
+        volcanDataRecordsCountries.forEach((country) => {
+            dropDown.append('option').text(country).property('value', country);
+        })
+
+        let defaultCountry = volcanDataRecordsCountries[0];
+        console.log(defaultCountry)
+        visuals(defaultCountry);
+        readData(defaultCountry);
+    })
+}
+
+// function resetData() {
+
+// }
+
+// FILE > ADD FOLDER TO WORKSPACE
+// Control+D to select multiple instances of word
+
+function optionChanged(newCountry) {
+    console.log(newCountry);
+    visuals(newCountry);
+    readData(newCountry);
+}
+
+function filterData(volcanoData, country) {
+    var filteredVolcanoData = volcanoData.filter(x => x.fields.country === country);
     console.log(filteredVolcanoData);
     return filteredVolcanoData;
 };
 
-// GOAL:
+function visuals(country) {
+    d3.json(json_url).then((volcanoData) => {
+        var countryData = filterData(volcanoData.records, country);
+        console.log(volcanoData)
 
-d3.json(json_url).then(function(data) {
-        const volcanoData = data.records.map(x => x);
-        var filteredVolcanoData = filterData(volcanoData, 'Vesuvius');
-        // var mtn = filteredVolcanoData.map(x => x.fields.name)
-        var event = filteredVolcanoData.map(x => x.geometry.recordid);
-        var time = filteredVolcanoData.map(x => x.fields.year);
-        var vei = filteredVolcanoData.map(x => x.fields.vei);
+        // var name = [];
+        // var event = [];
+        // var year = [];
+        // var vei = [];
+        // var country = [];
+
+        var event = countryData.map(x => x.geometry.recordid);
+        var year = countryData.map(x => x.fields.year);
+        var vei = countryData.map(x => x.fields.vei);
+        var name = countryData.map(x => x.fields.name);
+        var country = countryData.map(x => x.fields.country)
         
         var trace = {
-            x: time.slice(0,25).reverse(),
+            x: year,
             y: vei,
+            text: name,
             mode: 'markers',
             marker: {
-                size: vei * 1000, 
-                color: event
+                size: vei * 5000, 
+                color: name,
+                colorscale: 'YlGnBu'
             }
         };
         var d = [trace];
-        Plotly.newPlot('plot', d);        
-    });
-
-function init() {
-    var dropDown = d3.select('#selData');
-    const volcanoData = data.records.map(x => x);
-    d3.json(json_url).then((volcanoData) => {
-        console.log(volcanoData);
-        var names = x.fields.name;
-        x.fields.name.forEach((name) => {
-            dropDown.append('option').text(name).property('value');
-        });
-        var defaultSample = names[0];
-        visuals(defaultSample);
-        readData(defaultSample);
+        Plotly.newPlot('plot', d);   
     })
 }
 
-
-function selectData(nextSample) {
-    visuals(nextSample);
-    readData(nextSample);
+function readData(country) {
+    console.log(country);
 }
 
+
+// GOAL:
+
+// d3.json(json_url).then(function(data) {
+//         const volcanoData = data.records.map(x => x);
+//         console.log(volcanoData);
+//         var filteredVolcanoData = filterData(volcanoData, 'Japan');
+//         // var mtn = filteredVolcanoData.map(x => x.fields.name)
+//         var event = filteredVolcanoData.map(x => x.geometry.recordid);
+//         var year = filteredVolcanoData.map(x => x.fields.year);
+//         var vei = filteredVolcanoData.map(x => x.fields.vei);
+//         var name = filteredVolcanoData.map(x => x.fields.name);
+//         var country = filteredVolcanoData.map(x => x.fields.country)
+        
+//         var trace = {
+//             x: year.slice(0,25).reverse(),
+//             y: vei,
+//             text: name,
+//             mode: 'markers',
+//             marker: {
+//                 size: vei * 5000, 
+//                 color: name,
+//                 colorscale: 'YlGnBu'
+//             }
+//         };
+//         var d = [trace];
+//         Plotly.newPlot('plot', d);        
+//     });
+
 init();
+// function init() {
+
+//     var name = [];
+//     var event = [];
+//     var year = [];
+//     var vei = [];
+//     var country = [];
+
+
+//     var dropDown = d3.select('#selData');
+//     const volcanoData = x.fields.map(x => x);
+//     d3.json(json_url).then((volcanoData) => {
+//         console.log(volcanoData);
+//         var names = x.fields.name;
+//         x.fields.name.forEach((name) => {
+//             dropDown.append('option').text(name).property('value');
+//         });
+//         var defaultSample = names[0];
+//         visuals(defaultSample);
+//         readData(defaultSample);
+//     })
+// }
+
+
+// function selectData(nextSample) {
+//     visuals(nextSample);
+//     readData(nextSample);
+// }
+
+// init();
 // buildPlot(volcanoData, 'Stratovolcano');
 
 
