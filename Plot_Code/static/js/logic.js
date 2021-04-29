@@ -1,34 +1,9 @@
-// function buildPlot(volcanoes) {
-//     d3.json("https://public.opendatasoft.com/api/records/1.0/search/?dataset=significant-volcanic-eruption-database&q=&rows=850&start=0&facet=year&facet=tsu&facet=eq&facet=name&facet=location&facet=country&facet=type&facet=status").then(function(data) {
-//         var name = data.records.fields.name;
-//         console.log(data)
-//     });
-// }
+
 
 json_url = "https://public.opendatasoft.com/api/records/1.0/search/?dataset=significant-volcanic-eruption-database&q=&rows=850&start=0&facet=year&facet=tsu&facet=eq&facet=name&facet=location&facet=country&facet=type&facet=status"
 
-// var volcanoData = Promise.all([json_url]).then((values) => {
-//     json_url_ = values[0];
-//     var volcanoData = d3.json(json_url_).then(function(data) {
-//         const volcanoData = data.records.map(x => x)
-        
-//         return volcanoData
-//         // var name = data.records.fields.name;
-//         // console.log(data)
-//     });
-//     return volcanoData
-//   });
 
-
-// var volcanoData = d3.json(json_url).then(function(data) {
-//     const volcanoData = data.records.map(x => x);
-//     console.log(volcanoData)
-//     return volcanoData
-// });
-
-// var dropDown = d3.select('#selDataset');
-
-
+//url_with_deaths_description = "https://public.opendatasoft.com/api/records/1.0/search/?dataset=significant-volcanic-eruption-database&q=&rows=835&facet=year&facet=tsu&facet=eq&facet=name&facet=location&facet=country&facet=type&facet=status&facet=deaths_description&facet=total_deaths_description"
 
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
@@ -78,21 +53,7 @@ function optionChanged(newCountry){
     readData(newCountry);
 }
 
-// function optionChanged(newCountry) {
-//     console.log(newCountry);
-//     d3.csv('../Resources/volcano.csv').then((csvDatum)=> {
-//         csvDatum.forEach(function(data) {
-//             data.Country = data.Country;
-//           });
-//         console.log(csvDatum);
-//         var a = csvDatum.filter(x => x.Country === newCountry)
-//         visuals(newCountry);
-//         readData(newCountry);
-//     })
-    
-//     // visuals(newCountry);
-//     // readData(newCountry);
-// }
+
 
 function visuals(countryChoice) {
 
@@ -137,6 +98,25 @@ function readData(_country) {
 }
 
 
+init();
+
+// function optionChanged(newCountry) {
+//     console.log(newCountry);
+//     d3.csv('../Resources/volcano.csv').then((csvDatum)=> {
+//         csvDatum.forEach(function(data) {
+//             data.Country = data.Country;
+//           });
+//         console.log(csvDatum);
+//         var a = csvDatum.filter(x => x.Country === newCountry)
+//         visuals(newCountry);
+//         readData(newCountry);
+//     })
+    
+//     // visuals(newCountry);
+//     // readData(newCountry);
+// }
+
+
 // GOAL:
 
 // d3.json(json_url).then(function(data) {
@@ -165,7 +145,7 @@ function readData(_country) {
 //         Plotly.newPlot('plot', d);        
 //     });
 
-init();
+
 
 // FILE > ADD FOLDER TO WORKSPACE
 // Control+D to select multiple instances of word
