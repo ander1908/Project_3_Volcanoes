@@ -75,6 +75,7 @@ function visuals(countryChoice) {
         var elevationArr = countryData.map(x => x.fields.elevation);
         var name = countryData.map(x => x.fields.name);
         var country = countryData.map(x => x.fields.country)
+        var total_deaths = countryData.map(x=> x.fields.total_deaths_description)
     
         var trace = {
             x: year,
@@ -87,10 +88,30 @@ function visuals(countryChoice) {
                 colorscale: 'YlGnBu'
             }
         };
+
+        // var bar_trace = [{
+        //     x: vei,
+        //     y: total_deaths,
+        //     text: name, 
+        //     type: "bar",
+        //     orientation: "h" 
+        // }];
+        // layout_bar = {
+        //     title: {text:"Deaths vs VEI"},
+        //     xaxis: {title: "VEI"},
+        //     // yaxis: {title: "Deaths"},
+        //     heigh: 500, 
+        //     width: 900, 
+        //     margin: {l:-100, r:-1, b: -20, t: -20}
+        // }
+
+        // Plotly.newPlot('bar', bar_trace, layout_bar)
         var d = [trace];
         Plotly.newPlot('plot', d);   
     })
 }
+
+
 
 function readData(_country) {
     // console.log(country);
