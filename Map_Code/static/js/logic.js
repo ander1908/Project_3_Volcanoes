@@ -48,7 +48,8 @@ var overlays = {
     "Tephrochronology":layers.TEPHROCHRONOLOGY,
     "Uncertain":layers.UNCERTAIN,
     "Fumarolic":layers.FUMAROLIC
-    }
+};
+
 L.control.layers(null, overlays).addTo(map);
         
 var info = L.control({
@@ -95,6 +96,8 @@ var icons = {
 };
 
 d3.json("https://public.opendatasoft.com/api/records/1.0/search/?dataset=significant-volcanic-eruption-database&q=&rows=850&start=0&facet=year&facet=tsu&facet=eq&facet=name&facet=location&facet=country&facet=type&facet=status").then(function(statusMarkers) {
+    
+
     var mtns = statusMarkers.records;
 
 
@@ -112,11 +115,11 @@ d3.json("https://public.opendatasoft.com/api/records/1.0/search/?dataset=signifi
     for(var index = 0; index < mtns.length; index++) {
         var mtn = mtns[index].fields;
 
-        if (!mtn.Historical) {
+        if (mtn.Historical) {
             volcanoStatusCode = "Historical";
           }
           
-          else if (!mtn.Holocene) {
+          else if (mtn.Holocene) {
             volcanoStatusCode = "Holocene";
           }
           
@@ -158,12 +161,12 @@ function updateLegend(time, statusCount) {
     document.querySelector(".legend").innerHTML = [
       "<p>Updated: " + moment.unix(time).format("h:mm:ss A") + "</p>",
       "<p class='historical'>Historical: " + statusCount.HISTORICAL + "</p>",
-      "<p class='holocene'>Stations Coming Soon: " + statusCount.HOLOCENE + "</p>",
-      "<p class='radiocarbon'>Empty Stations: " + statusCount.RADIOCARBON + "</p>",
-      "<p class='low'>Low Stations: " + statusCount.ANTHROPOLOGY + "</p>",
-      "<p class='healthy'>Healthy Stations: " + statusCount.TEPHROCHRONOLOGY + "</p>",
-      "<p class='healthy'>Healthy Stations: " + statusCount.UNCERTAIN + "</p>",
-      "<p class='healthy'>Healthy Stations: " + statusCount.FUMAROLIC + "</p>"
+      "<p class='holocene'>Holocene Events: " + statusCount.HOLOCENE + "</p>",
+      "<p class='radiocarbon'>Radiocarbon Evidence: " + statusCount.RADIOCARBON + "</p>",
+      "<p class='anthro'>Anthropolocial Evidence: " + statusCount.ANTHROPOLOGY + "</p>",
+      "<p class='tephrochonology'>Tephrochronology: " + statusCount.TEPHROCHRONOLOGY + "</p>",
+      "<p class='uncertain'>Uncertain " + statusCount.UNCERTAIN + "</p>",
+      "<p class='fumarolic'>Fumarolic: " + statusCount.FUMAROLIC + "</p>"
     ].join("");
 }
 
