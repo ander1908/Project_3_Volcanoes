@@ -63,22 +63,22 @@ function visuals(countryChoice) {
                 colorscale: 'YlGnBu'
             }
         };
-        // var bar_trace = [{
-        //     x: vei,
-        //     y: total_deaths,
-        //     text: name, 
-        //     type: "bar",
-        //     orientation: "h" 
-        // }];
-        // layout_bar = {
-        //     title: {text:"Deaths vs VEI"},
-        //     xaxis: {title: "VEI"},
-        //     // yaxis: {title: "Deaths"},
-        //     heigh: 500, 
-        //     width: 900, 
-        //     margin: {l:-100, r:-1, b: -20, t: -20}
-        // }
-        // Plotly.newPlot('bar', bar_trace, layout_bar)
+        var bar_trace = [{
+            x: vei,
+            y: total_deaths,
+            text: name, 
+            type: "bar",
+            orientation: "h" 
+        }];
+        layout_bar = {
+            title: {text:"Deaths vs VEI"},
+            xaxis: {title: "VEI"},
+            // yaxis: {title: "Deaths"},
+            heigh: 500, 
+            width: 900, 
+            margin: {l:-100, r:-1, b: -20, t: -20}
+        }
+        Plotly.newPlot('bar', bar_trace, layout_bar)
         var d = [trace];
         Plotly.newPlot('plot', d);   
     })
@@ -87,67 +87,67 @@ function readData(_country) {
     // console.log(country);
 }
 init();
-// function optionChanged(newCountry) {
-//     console.log(newCountry);
-//     d3.csv('../Resources/volcano.csv').then((csvDatum)=> {
-//         csvDatum.forEach(function(data) {
-//             data.Country = data.Country;
-//           });
-//         console.log(csvDatum);
-//         var a = csvDatum.filter(x => x.Country === newCountry)
-//         visuals(newCountry);
-//         readData(newCountry);
-//     })
-//     // visuals(newCountry);
-//     // readData(newCountry);
-// }
-// GOAL:
-// d3.json(json_url).then(function(data) {
-//         const volcanoData = data.records.map(x => x);
-//         console.log(volcanoData);
-//         var filteredVolcanoData = filterData(volcanoData, 'Japan');
-//         // var mtn = filteredVolcanoData.map(x => x.fields.name)
-//         var event = filteredVolcanoData.map(x => x.geometry.recordid);
-//         var year = filteredVolcanoData.map(x => x.fields.year);
-//         var vei = filteredVolcanoData.map(x => x.fields.vei);
-//         var name = filteredVolcanoData.map(x => x.fields.name);
-//         var country = filteredVolcanoData.map(x => x.fields.country)
-//         var trace = {
-//             x: year.slice(0,25).reverse(),
-//             y: vei,
-//             text: name,
-//             mode: 'markers',
-//             marker: {
-//                 size: vei * 5000, 
-//                 color: name,
-//                 colorscale: 'YlGnBu'
-//             }
-//         };
-//         var d = [trace];
-//         Plotly.newPlot('plot', d);        
-//     });
-// GOAL:
-// d3.json(json_url).then(function(data) {
-//         const volcanoData = data.records.map(x => x);
-//         console.log(volcanoData);
-//         var filteredVolcanoData = filterData(volcanoData, 'Japan');
-//         // var mtn = filteredVolcanoData.map(x => x.fields.name)
-//         var event = filteredVolcanoData.map(x => x.geometry.recordid);
-//         var year = filteredVolcanoData.map(x => x.fields.year);
-//         var vei = filteredVolcanoData.map(x => x.fields.vei);
-//         var name = filteredVolcanoData.map(x => x.fields.name);
-//         var country = filteredVolcanoData.map(x => x.fields.country)
-//         var trace = {
-//             x: year.slice(0,25).reverse(),
-//             y: vei,
-//             text: name,
-//             mode: 'markers',
-//             marker: {
-//                 size: vei * 5000, 
-//                 color: name,
-//                 colorscale: 'YlGnBu'
-//             }
-//         };
-//         var d = [trace];
-//         Plotly.newPlot('plot', d);        
-//     });
+function optionChanged(newCountry) {
+    console.log(newCountry);
+    d3.csv('../Resources/volcano.csv').then((csvDatum)=> {
+        csvDatum.forEach(function(data) {
+            data.Country = data.Country;
+          });
+        console.log(csvDatum);
+        var a = csvDatum.filter(x => x.Country === newCountry)
+        visuals(newCountry);
+        readData(newCountry);
+    })
+    visuals(newCountry);
+    readData(newCountry);
+}
+GOAL:
+d3.json(json_url).then(function(data) {
+        const volcanoData = data.records.map(x => x);
+        console.log(volcanoData);
+        var filteredVolcanoData = filterData(volcanoData, 'Japan');
+        // var mtn = filteredVolcanoData.map(x => x.fields.name)
+        var event = filteredVolcanoData.map(x => x.geometry.recordid);
+        var year = filteredVolcanoData.map(x => x.fields.year);
+        var vei = filteredVolcanoData.map(x => x.fields.vei);
+        var name = filteredVolcanoData.map(x => x.fields.name);
+        var country = filteredVolcanoData.map(x => x.fields.country)
+        var trace = {
+            x: year.slice(0,25).reverse(),
+            y: vei,
+            text: name,
+            mode: 'markers',
+            marker: {
+                size: vei * 5000, 
+                color: name,
+                colorscale: 'YlGnBu'
+            }
+        };
+        var d = [trace];
+        Plotly.newPlot('plot', d);        
+    });
+GOAL:
+d3.json(json_url).then(function(data) {
+        const volcanoData = data.records.map(x => x);
+        console.log(volcanoData);
+        var filteredVolcanoData = filterData(volcanoData, 'Japan');
+        // var mtn = filteredVolcanoData.map(x => x.fields.name)
+        var event = filteredVolcanoData.map(x => x.geometry.recordid);
+        var year = filteredVolcanoData.map(x => x.fields.year);
+        var vei = filteredVolcanoData.map(x => x.fields.vei);
+        var name = filteredVolcanoData.map(x => x.fields.name);
+        var country = filteredVolcanoData.map(x => x.fields.country)
+        var trace = {
+            x: year.slice(0,25).reverse(),
+            y: vei,
+            text: name,
+            mode: 'markers',
+            marker: {
+                size: vei * 5000, 
+                color: name,
+                colorscale: 'YlGnBu'
+            }
+        };
+        var d = [trace];
+        Plotly.newPlot('plot', d);        
+    });
