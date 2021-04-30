@@ -54,7 +54,6 @@ function optionChanged(newCountry){
 }
 
 
-
 function visuals(countryChoice) {
 
     d3.json(json_url).then((volcanoData) => {
@@ -115,6 +114,35 @@ init();
 //     // visuals(newCountry);
 //     // readData(newCountry);
 // }
+
+
+// GOAL:
+
+// d3.json(json_url).then(function(data) {
+//         const volcanoData = data.records.map(x => x);
+//         console.log(volcanoData);
+//         var filteredVolcanoData = filterData(volcanoData, 'Japan');
+//         // var mtn = filteredVolcanoData.map(x => x.fields.name)
+//         var event = filteredVolcanoData.map(x => x.geometry.recordid);
+//         var year = filteredVolcanoData.map(x => x.fields.year);
+//         var vei = filteredVolcanoData.map(x => x.fields.vei);
+//         var name = filteredVolcanoData.map(x => x.fields.name);
+//         var country = filteredVolcanoData.map(x => x.fields.country)
+        
+//         var trace = {
+//             x: year.slice(0,25).reverse(),
+//             y: vei,
+//             text: name,
+//             mode: 'markers',
+//             marker: {
+//                 size: vei * 5000, 
+//                 color: name,
+//                 colorscale: 'YlGnBu'
+//             }
+//         };
+//         var d = [trace];
+//         Plotly.newPlot('plot', d);        
+//     });
 
 
 // GOAL:

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Adapting https://www.youtube.com/watch?v=f9hPupBtnl4 coding for this project Need to unpack and study the xmlHTTP Similar to D3-->
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+       <title>Visualize Data Beautifully Using JS Charts</title>
+       <h1> ChartJS Javascript Visualization </h1>
+      <link href="css/style.css" media="screen" rel="stylesheet">
+      <canvas id="myChart" width="400" height="400"></canvas>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="js/custom.js"></script>
+      
+</head>
+<body>
+<!--<script type="test/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.2.0/dist/chart.min.js"></script>-->
+<canvas id="myChart" width="800" height="600"></canvas>
+<script>
+var xmlhttp = new XMLHttpRequest();
+var url = "https://public.opendatasoft.com/api/records/1.0/search/?dataset=significant-volcanic-eruption-database&q=&rows=1000&facet=year&facet=tsu&facet=eq&facet=name&facet=location&facet=country&facet=type&facet=status&facet=deaths_description&facet=missing_description&facet=injuries_description&facet=damage_description&facet=houses_destroyed_description&facet=total_deaths_description&facet=total_missing_description&facet=total_injuries_description&facet=total_damage_description&facet=total_houses_destroyed_description&facet=houses_damaged_description";
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+    var names = []
+    var elev = []
+    var countries = []
+    var type = []
+xmlhttp.onreadystatechange = function(){
+  if (this.readyState == 4 && this.status == 200) {
+    var data = JSON.parse(this.responseText);
+    console.log(data);
+    var records = data.records;
+     console.log("Json Data",records );
+
+     for(var index = 0; index < records.length; index++) {
+      var name = records[index].fields.name;
+      names.push(name);
+      var elevation = records[index].fields.elevation;
+      elev.push(elevation)
+      var country = records[index].fields.elevation;
+      countries.push(country)
+      var types = records[index].fields.type;
+      type.push(types)
+
+      //console.log(name);
+      //console.log(elevation);
+      
+    }
+    var combined = Object.assign.apply({},names.map( (v,i) => ( {[v]: elev[i]})));
+      console.log("Combined",combined);
+      var combined2 = Object.assign.apply({},type.map( (v,i) => ( {[v]: elev[i]})));
+      console.log("Combined 2",combined2)
+    console.log("Names",names);
+    console.log("Elevations",elev);
+  }
+  //regionChart.update()
+};
+</script>
+<script>
+var ctx = document.getElementById('myChart');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: names, 
+        datasets: [{
+            label: 'Elevations',
+            data: elev,
+            fill: false,
+            borderColor:'green',
+            tension: 0.1
+        },
+        {
+            label: 'Elevations',
+            data: elev,
+            fill: false,
+            borderColor:'red',
+            tension: 0.1
+        }
+      
+      
+      ]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>    
+</body>
+</html>
