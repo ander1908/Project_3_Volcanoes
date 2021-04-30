@@ -13,19 +13,24 @@ select_tag
 
 country_list = [];
 tableData = [];
+asendData = [];
+
+d3.csv("static/data/volcano_ascend.csv").then((myData) => {
+  asendData = myData
+});  
 
 d3.csv("static/data/volcano_data.csv").then((importedData) => {
   tableData = importedData
   console.log("tableData")
   console.log(tableData)
 
-  var cuntries = importedData.map(x => x.country);
+  var cuntries = importedData.map(x => x.Country);
   // console.log("cuntries");
   // console.log(cuntries);
 
   cuntries.sort()
 
-  // Elimiate country titles for the selection choice.
+  // Eliminate country titles for the selection choice.
   cuntries.map((name) => {
 
     if (country_list.indexOf(name) === -1) {
@@ -47,7 +52,7 @@ function optionChanged(selected_country) {
   console.log("selected_country=", selected_country);
 
   // Bar Chart
-  results = tableData.filter(row => row.country == selected_country);
+  results = asendData.filter(row => row.Country == selected_country);
   console.log("results")
   console.log(results)
 
@@ -60,10 +65,10 @@ function optionChanged(selected_country) {
   results.forEach((row) => {
     i = i + 1
     console.log("y_list")
-    console.log(row.year)
-    year_list.push('case ' + i + ' - ' + row.year);
-    vei_list.push(row.vei);
-    text_list.push("Type: " + row.type + "<br>" + "Coordinates: " + row.coordinates);
+    console.log(row.Year)
+    year_list.push('Event ' + i + ' :  ' + row.Year);
+    vei_list.push(row.VEI);
+    text_list.push("Volcano Name:  " + row.Name + "<br>" + "Volcano Type:  " + row.Type + "<br>" + "VEI:  " + row.VEI + "<br>" + "Coordinates: " + row.Coordinates);
   });
 
   var bar_trace = {
@@ -78,7 +83,7 @@ function optionChanged(selected_country) {
 
   // Screen heading  
   var bar_layout = {
-    title: selected_country + " - Volcano Cases after 1900-01-01",
+    title: selected_country + " - Historical Volcano Events",
     margin: { t: 30, l: 150 }
   };
 
@@ -89,15 +94,21 @@ function optionChanged(selected_country) {
 
   const tbl_header = tbody.append("tr");
   let header = tbl_header.append("th");
+  header.text("Year");
+  header = tbl_header.append("th");
   header.text("Country");
   header = tbl_header.append("th");
-  header.text("Coordinates");
+  header.text("Location");
   header = tbl_header.append("th");
-  header.text("Type");
+  header.text("Volcano Name");
+  header = tbl_header.append("th");
+  header.text("Volcano Type");
   header = tbl_header.append("th");
   header.text("VEI");
   header = tbl_header.append("th");
-  header.text("Year");
+  header.text("Coordinates");
+  
+  results = tableData.filter(row => row.Country == selected_country);
 
   results.map((row) => {
     const tbl_data = tbody.append("tr");
@@ -111,159 +122,5 @@ function optionChanged(selected_country) {
     });
   });
 
-
 }
-
-//   console.log("importedData")
-//   console.log(importedData)
-
-//   var subject_ids = importedData.names;
-//   // var subject_ids = importedData["names"];
-//   console.log("Subject_ids")
-//   console.log(subject_ids)
-
-//   // subject_ids.forEach((id) => {
-//   //   select_tag
-//   //     .append("option")
-//   //     .property("value", id)
-//   //     .text(id);
-//   // });
-
-//   subject_ids.map((id) => {
-//     select_tag
-//       .append("option")
-//       .property("value", id)
-//       .text(id);
-//   });
-
-//   // index.html is loaded with the dashboard of 940 for the initial page load
-//   optionChanged(subject_ids[0]);
-
-// });
-
-// // The function is triggered by an option change in the Dropdown box of "Test Subject ID No" in index.html
-// // <select id="selDataset" onchange="optionChanged(this.value)">
-// function optionChanged(selected_id) {
-//   console.log("selected_id=", selected_id);
-
-//   d3.json("samples.json").then((data) => {
-//     //   Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-//     // * Use`sample_values` as the values for the bar chart.
-//     // * Use`otu_ids` as the labels for the bar chart.
-//     // * Use`otu_labels` as the hovertext for the chart.
-
-//     var samples = data.samples;
-//     var results = samples.filter(sampleObj => sampleObj.id == selected_id);
-
-//     console.log("samples: ");
-//     console.log(samples);
-
-//     var result = results[0];
-
-//     console.log("results: ");
-//     console.log(results);
-
-//     console.log("result: ");
-//     console.log(result);
-
-//     var otu_ids = result.otu_ids;
-//     var otu_labels = result.otu_labels;
-//     var sample_values = result.sample_values;
-
-//     var y_label = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
-
-//     console.log("y_label: ");
-//     console.log(y_label);
-
-//     console.log("sample_valuese: ");
-//     console.log(sample_values.slice(0, 10).reverse());
-
-//     var bar_trace = {
-//       y: y_label,
-//       x: sample_values.slice(0, 10).reverse(),
-//       text: otu_labels.slice(0, 10).reverse(),
-//       type: "bar",
-//       orientation: "h",
-//     };
-
-//     var data = [bar_trace];
-
-//     var bar_layout = {
-//       title: "Top 10 OTUs",
-//       margin: { t: 30, l: 150 }
-//     };
-
-//     Plotly.newPlot("bar", data, bar_layout);
-
-//     //==================================================
-
-//     // Create a bubble chart that displays each sample.
-//     // * Use`otu_ids` for the x values.
-//     // * Use`sample_values` for the y values.
-//     // * Use`sample_values` for the marker size.
-//     // * Use`otu_ids` for the marker colors.
-//     // * Use`otu_labels` for the text values.
-
-//     var results = samples.filter(sampleObj => sampleObj.id == selected_id);
-//     var result = results[0];
-
-//     var otu_ids = result.otu_ids;
-//     var otu_labels = result.otu_labels;
-//     var sample_values = result.sample_values;
-
-//     var bubble_trace = {
-//       x: otu_ids,
-//       y: sample_values,
-//       text: otu_labels,
-//       mode: "markers",
-//       marker: {
-//         size: sample_values,
-//         color: otu_ids,
-//         colorscale: "Earth"
-//       }
-//     };
-
-//     var data = [bubble_trace];
-
-//     var bubble_layout = {
-//       hovermode: "closest",
-//       xaxis: { title: "OTU ID" },
-//       margin: { t: 30 }
-//     };
-
-//     Plotly.newPlot("bubble", [bubble_trace], bubble_layout);
-//   });
-//   //====================================================
-
-//   // Demorgrphic info
-//   d3.json("samples.json").then((data) => {
-//     var metadata = data.metadata;
-
-//     console.log("metadata");
-//     console.log(metadata);
-
-//     var results = metadata.filter(metadataObj => metadataObj.id == selected_id);
-//     var result = results[0];
-
-//     console.log("results")
-//     console.log(results)
-
-//     console.log("result")
-//     console.log(result)
-
-//     var fig = d3.select("#sample-metadata");
-
-//     fig.html("");
-
-//     Object.entries(results[0]).forEach(([key, value]) => {
-//       fig.append("h5").text(`${key}: ${value}`);
-//     });
-
-//     // buildGauge(result.wfreq);
-
-//   });
-// }
-
-
-
 
