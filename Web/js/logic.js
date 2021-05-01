@@ -78,7 +78,7 @@ function visuals(countryChoice) {
             width: 900, 
             margin: {l:-100, r:-1, b: -20, t: -20}
         }
-        Plotly.newPlot('bar', bar_trace, layout_bar)
+        //Plotly.newPlot('bar', bar_trace, layout_bar)
         var d = [trace];
         Plotly.newPlot('plot', d);   
     })
