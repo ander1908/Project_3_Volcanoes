@@ -17,7 +17,7 @@
   margin:0;
   padding:0;}
 </style>
-<title>Leaflet for Volcano Locations</title>
+<title>VEI Dashboard</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" crossorigin = "anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin = "anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin = "anonymous">
@@ -66,10 +66,9 @@ crossorigin=""/>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="leaflet.html">Leaflet</a>
             <a class="dropdown-item" href="plotly.html">Plotly</a>
-            <a class="dropdown-item" href="judy.html">VEI Dashboard</a>
             <a class="dropdown-item" href="chartjs.html">Chart.js</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="data.html">Group</a>
+            <a class="dropdown-item" href="group.html">Group</a>
           </div>
         </li>
         <li class="nav-item active">
@@ -87,7 +86,7 @@ crossorigin=""/>
           <a class="nav-link" href="judy.html">VEI Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="data.html">Chart.js</a>
+          <a class="nav-link" href="chartjs.html">Chart.js</a>
         </li>
         <!--Adding additional links to given header-->
         <li class="nav-item">
@@ -99,16 +98,39 @@ crossorigin=""/>
 </nav>
 
 <!-- Page Content -->
-<section class="py-5">
-  <div class="container">
-    <h1 class="display-8">Worldview of all Recorded Eruptions</h1>
 
-      <!-- The div that holds our map -->
-  <div id="map-id" style="width: 100%; height: 600px"></div>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h2>Volcanic Explosivity Index (VEI) Dashboard</h2>
+            <p>Use the interactive charts below to explore the dataset</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="well">
+              <h5>Counties:</h5>
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div id="bar"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="table-area" class="">
+              <table id="ufo-table" class="table table-striped" border="1">
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <script src="js/table.js"></script>
+    </body>
 
-  <!-- Our JavaScript file -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
-
-  </div>
-</section>
 </html>
