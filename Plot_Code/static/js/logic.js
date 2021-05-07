@@ -89,23 +89,23 @@ function visuals(countryChoice) {
             }
         };
 
-        // var bar_trace = [{
-        //     x: vei,
-        //     y: total_deaths,
-        //     text: name, 
-        //     type: "bar",
-        //     orientation: "h" 
-        // }];
-        // layout_bar = {
-        //     title: {text:"Deaths vs VEI"},
-        //     xaxis: {title: "VEI"},
-        //     // yaxis: {title: "Deaths"},
-        //     heigh: 500, 
-        //     width: 900, 
-        //     margin: {l:-100, r:-1, b: -20, t: -20}
-        // }
+        var bar_trace = [{
+            x: vei,
+            y: total_deaths,
+            text: name, 
+            type: "bar",
+            orientation: "h" 
+        }];
+        layout_bar = {
+            title: {text:"Deaths vs VEI"},
+            xaxis: {title: "VEI"},
+            // yaxis: {title: "Deaths"},
+            heigh: 500, 
+            width: 900, 
+            margin: {l:-100, r:-1, b: -20, t: -20}
+        }
 
-        // Plotly.newPlot('bar', bar_trace, layout_bar)
+        Plotly.newPlot('bar', bar_trace, layout_bar)
         var d = [trace];
         Plotly.newPlot('plot', d);   
     })
