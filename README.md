@@ -1,5 +1,7 @@
 # **Group Project 3 Volcanoes**
-Our webpage [here](https://jaryan77.github.io/volcano_pt3/index.html)
+Our webpage can be accessed [here](https://jaryan77.github.io/volcano_pt3/index.html)
+
+
 The purpose of this project was to explore the various relationships between volcano size, magnitude, mortality, and time of explosion. We utilized different techniques for visualizing the data collected. Work was done independently for each visualization, which I then combined on a custom bootstrap website. 
 
 Tools Utilized: HTML, Javascript, Plotly, ChartJS, D3, Leaflet
