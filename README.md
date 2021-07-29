@@ -1,4 +1,4 @@
-# **Group Project 3 Volcanoes**
+# **Volcano Exploration**
 Our webpage can be accessed [here](https://jaryan77.github.io/volcano_pt3/index.html)
 
 
